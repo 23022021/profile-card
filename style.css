@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+  background-color:#19A1AE;
+  background-image: url("./bg-pattern-top.svg"),
+                    url("./bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: -45% 250% , 150%  -135% ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Kumbh Sans', sans-serif;  
+}
+
+.card-content{
+  height: 374px;
+  width: 350px;
+  left: 0px;
+  top: 0px;
+  border-radius: 15px;
+  background-color: white;
+}
+.pattern{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.victor{
+   display:block;
+   position:absolute;
+   margin-left: 125px;
+   margin-top: -50px;
+   border-radius: 50px;
+   border: 5px solid ;
+   border-color: white;
+}
+h1{
+  height: 28px;
+  position: absolute;
+  margin-top: 70px;
+  margin-left:115px;
+  font-weight: 700;
+  font-size:18px;
+}
+.num{
+  font-weight: 400;
+  font-size:14px;
+  line-height: 17px;
+  color: #6B7082;
+  margin-top:73px ;
+  margin-left:225px;
+}
+.city{
+  font-weight: 400;
+  font-size:14px;
+  line-height: 17px;
+  color: #6B7082;
+  margin-left: 152px;
+}
+hr{
+  color:#E8E9EC;
+  margin-top:25px;
+}
+.num-1{
+  display: block;
+  position: absolute;
+  margin-left: -300px;
+  margin-top: 120px;
+  font-weight: 700;
+  font-size:18px;
+  line-height: 22px;
+}
+.followers{
+  display: block;
+  position: absolute;
+  margin-left: -312px;
+  margin-top: 150px;
+  font-weight: 400;
+  font-size:10px;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+  color: #6B7082;
+}
+.num-2{
+  display: block;
+  position: absolute;
+  margin-left: -200px;
+  margin-top: 120px;
+  font-weight: 700;
+  font-size:18px;
+  line-height: 22px;
+}
+.likes{
+  display: block;
+  position: absolute;
+  margin-left: -190px;
+  margin-top: 150px;
+  font-weight: 400;
+  font-size:10px;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+  color: #6B7082;
+}
+.num-3{
+  display: block;
+  position: absolute;
+  margin-left: -100px;
+  margin-top: 120px;
+  font-weight: 700;
+  font-size:18px;
+  line-height: 22px;
+}
+.photos{
+  display: block;
+  position: absolute;
+  margin-left: -100px;
+  margin-top: 150px;
+  font-weight: 400;
+  font-size:10px;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+  color: #6B7082;
+}
